@@ -41,7 +41,7 @@ public class FinancialRecordService {
         return repo.findAll();
     }
 
-    // 🔥 DASHBOARD LOGIC
+    // DASHBOARD LOGIC
 
     public double totalIncome() {
         return repo.findAll().stream()
